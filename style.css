@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #e5e7eb;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 45px 20px;
+}
+
+h2 {
+    color: #0f172a;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #e5e7eb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+footer {
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #e5e7eb;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 45px 20px;
+}
+
+h2 {
+    color: #0f172a;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #e5e7eb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+footer {
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}

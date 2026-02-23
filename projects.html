@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Research Projects | Thikana Roy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Research Projects</h1>
+    <nav><a href="index.html">Home</a></nav>
+</header>
+
+<section>
+
+    <div class="card">
+        <h3>Predictive Maintenance for Industrial Equipment</h3>
+        <p><strong>Dataset Type:</strong>
+            Simulated sensor and operational data representing equipment degradation patterns.
+        </p>
+        <p><strong>Problem Formulation:</strong>
+            Failure prediction under limited labeled fault data in industrial systems.
+        </p>
+        <p><strong>Methodology:</strong>
+            Feature engineering from simulated sensor variables followed by supervised
+            learning using Logistic Regression, chosen for interpretability and baseline reliability.
+        </p>
+        <p><strong>Evaluation Metric:</strong>
+            Precision–Recall, appropriate for class-imbalanced failure prediction.
+        </p>
+        <p><strong>Limitation:</strong>
+            Model performance depends on assumptions in the simulated data; real-world
+            deployment would require validation on operational sensor datasets.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Anomaly Detection in Financial Transactions</h3>
+        <p><strong>Dataset Type:</strong>
+            Synthetic financial transaction data with severe class imbalance.
+        </p>
+        <p><strong>Problem Formulation:</strong>
+            Identification of rare fraudulent transactions in highly imbalanced datasets.
+        </p>
+        <p><strong>Methodology:</strong>
+            Classification-based anomaly detection with evaluation focused on
+            imbalance-aware metrics rather than accuracy.
+        </p>
+        <p><strong>Key Technical Insight:</strong>
+            Accuracy is misleading in fraud detection; precision–recall analysis provides
+            a more reliable assessment of model usefulness under extreme imbalance.
+        </p>
+        <p><strong>Limitation:</strong>
+            Synthetic data may not capture evolving real-world fraud behavior and noise patterns.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Data-Driven Modeling of Gallium-Based System Behavior</h3>
+        <p><strong>Nature:</strong> Ongoing independent research project</p>
+        <p><strong>Objective:</strong>
+            To davelop a data-driven machine learning model that predicts and optimizes electrical energy output from gallium phase-change cycles using real-time thermal and electrical data. 
+        </p>
+        <p><strong>Research Basis:</strong>
+            This research is grounded in time-series data analysis and machine learning applied to phase-change thermal system,transforming physical heat transitions into predictable and optimizable data patterns.
+        </p>
+        <p><strong>Core Challenges:</strong>
+           Modeling noisy, low-power thermal-electrical time-series data and designing ultra-lightweight ML Algorithms that improve efficiency without exceeding the system's energy budget
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Thikana Roy | Academic Research Portfolio
+</footer>
+
+</body>
+</html>
